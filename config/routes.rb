@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'home/index'
   root to: 'home#index'
   get 'about' => 'home#about' 
+  get 'services' => 'home#services' 
   get 'admin/index'
   get 'sessions/new'
   get 'sessions/create'

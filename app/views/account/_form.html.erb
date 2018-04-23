@@ -10,18 +10,22 @@
       </ul>
     </div>
   <% end %>
-
+<style>
+.white{
+  color:white;
+}
+</style>
   <div class="field">
-    <%= form.label :username %>
+ <span class='white'>  用户名</span>
     <%= form.text_field :username %>
   </div>
 <div class="field">
-    <%= form.label :password %>
+ <span class="white">密码</span> 
     <%= form.password_field :password %>
   </div>
 
   <div class="field">
-    <%= form.label :password_confirmation %>
+  <span class="white">确认密码</span>  
     <%= form.password_field :password_confirmation %>
   </div>
 
